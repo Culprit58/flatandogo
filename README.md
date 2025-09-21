@@ -1,4 +1,4 @@
-Flatadango 🎬
+Flatadango 
 
 Flatadango is a mini web app that demonstrates the three pillars of JavaScript:
 
@@ -8,7 +8,6 @@ DOM Manipulation: Dynamically rendering film details, updating available tickets
 
 Communicating with the Server: Using fetch() to perform GET, PATCH, and DELETE operations on a JSON server.
 
-⚠️ This is a private learning project.
 
 Features
 
@@ -26,7 +25,7 @@ Setup & Installation
 
 Clone this repository:
 
-git clone <PRIVATE_REPO_URL>
+git clone https://github.com/Culprit58/flatandogo.git
 cd flatadango
 
 Install JSON Server globally (if not installed):
@@ -41,10 +40,13 @@ Open index.html in your browser.
 
 Project Structure
 flatadango/
-├── index.html        # Main application
-├── db.json           # Film database (server data)
-├── README.md         # Documentation
-└── LICENSE           # MIT license
+├── index.html # Main application
+├── styles.css # Stylesheet for layout and design
+├── script.js # JavaScript logic for handling events & server calls
+├── db.json # Film database (server data)
+├── README.md # Documentation
+└── LICENSE # MIT license
+
 Usage
 
 On page load, the first movie's details are displayed.
