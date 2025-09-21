@@ -1,0 +1,52 @@
+ 
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      margin: 0;
+    }
+    #films {
+      width: 250px;
+      background: #f4f4f4;
+      padding: 1rem;
+      list-style: none;
+    }
+    #films li {
+      padding: 8px;
+      margin-bottom: 5px;
+      cursor: pointer;
+      background: #fff;
+      border: 1px solid #ddd;
+    }
+    #films li.sold-out {
+      color: #aaa;
+      text-decoration: line-through;
+    }
+    #details {
+      flex: 1;
+      padding: 1rem;
+    }
+    #poster {
+      max-width: 300px;
+    }
+    button {
+      padding: 8px 12px;
+      margin-top: 10px;
+      background: #007BFF;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+    button:disabled {
+      background: #aaa;
+      cursor: not-allowed;
+    }
+    .delete-btn {
+      float: right;
+      background: #dc3545;
+      color: white;
+      padding: 4px 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 12px;
+    }
+  
