@@ -71,4 +71,4 @@ License
 
 This project is licensed under the MIT License.
 
-© 2025 Flatandogo. For private educational use only.
+© 2025 Flatandogo.

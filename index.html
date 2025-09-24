@@ -4,20 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Flatadango App</title>
- <link rel="stylesheet" href="./styles.css">
+  
+  <link rel="stylesheet" href="./styles.css">
 </head>
+
 <body>
+  <!-- Unordered list where film titles will be dynamically loaded -->
   <ul id="films"></ul>
+
+  <!-- Container for displaying the details of the selected movie -->
   <div id="details">
+    <!-- Movie title -->
     <h2 id="title"></h2>
+
+    <!-- Movie poster image -->
     <img id="poster" alt="Movie Poster" />
-    <p><strong>Runtime:</strong> <span id="runtime"></span> mins</p>
-    <p><strong>Showtime:</strong> <span id="showtime"></span></p>
+
+    <!-- Movie runtime information -->
+    <p>
+      <strong>Runtime:</strong>
+      <span id="runtime"></span> mins
+    </p>
+
+    <!-- Showtime for the movie -->
+    <p>
+      <strong>Showtime:</strong>
+      <span id="showtime"></span>
+    </p>
+
+    <!-- Movie description -->
     <p id="description"></p>
-    <p><strong>Available Tickets:</strong> <span id="available-tickets"></span></p>
+
+    <!-- Number of available tickets -->
+    <p>
+      <strong>Available Tickets:</strong>
+      <span id="available-tickets"></span>
+    </p>
+
+    <!-- Button for buying a ticket -->
     <button id="buy-ticket">Buy Ticket</button>
   </div>
 
+  <!-- Link to the JavaScript file that handles DOM updates, events, and data fetching -->
   <script src="./script.js"></script>
 </body>
 </html>
